@@ -27,6 +27,10 @@ h2 {
   cursor: grab;
 }
 
+#map {
+  touch-action: none;
+}
+
 #map:active {
   cursor: grabbing;
 }
@@ -245,7 +249,14 @@ h2 {
 @media (max-width: 768px) {
 
   .map-container {
-    width: 95%;
+    width: 100%;
+    height: 100vh;        
+    aspect-ratio: unset;  
+    border-radius: 0;     
+  }
+
+  #map {
+    height: 100%;
   }
 
   .panel {
@@ -280,8 +291,4 @@ h2 {
 
 html {
   scroll-behavior: smooth;
-}
-
-html, body {
-  touch-action: none;
 }
