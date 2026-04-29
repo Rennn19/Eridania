@@ -267,6 +267,10 @@ h2 {
     height: 18px;
   }
 
+  .nav {
+    margin-top: auto;
+  }
+  
   .prev, .next {
     font-size: 16px;
     padding: 6px 10px;
@@ -276,4 +280,8 @@ h2 {
 
 html {
   scroll-behavior: smooth;
+}
+
+html, body {
+  touch-action: none;
 }
