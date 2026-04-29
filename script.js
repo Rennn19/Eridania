@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     step: 0.2
   });
 
-  elem.parentElement.addEventListener('wheel', panzoom.zoomWithWheel);
+  elem.parentElement.addEventListener('touchmove', panzoom.zoomWithWheel);
 
   // FUNCTION FOCUS
   function focusToPoint(point) {
