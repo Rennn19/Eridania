@@ -6,23 +6,21 @@ body {
   text-align: center;
 }
 
-/* JUDUL */
 h2 {
   margin: 20px 0;
   color: #ffcc00;
 }
 
-/* CONTAINER */
 .map-container {
   width: 900px;
-  height: 600px;
+  max-width: 900px;
+  aspect-ratio: 3 / 2;
   margin: auto;
   overflow: hidden;
   border: 2px solid #444;
   border-radius: 10px;
 }
 
-/* MAP */
 #map {
   width: 100%;
   height: 100%;
@@ -40,7 +38,6 @@ h2 {
   border-radius: 10px;
 }
 
-/* TITIK */
 .point {
   position: absolute;
   width: 14px;
@@ -62,7 +59,6 @@ h2 {
   box-shadow: 0 0 15px #00aaff;
 }
 
-/* PANEL */
 .panel {
   position: fixed;
   right: 0;
@@ -71,13 +67,13 @@ h2 {
   height: 100vh;
   background: #1a1a1a;
   padding: 20px;
-  box-shadow: -5px 0 -5px rgba(0,0,0,0.7);
+  box-shadow: -5px 0 15px rgba(0,0,0,0.7);
   text-align: center;
 
   display: flex;
   flex-direction: column;
 
-  transform: translateX(100%); /* 🔥 kunci */
+  transform: translateX(100%); 
   transition: 0.4s;
 }
 
@@ -102,12 +98,10 @@ h2 {
 }
 
 
-/* AKTIF */
 .panel:target {
   transform: translateX(0);
 }
 
-/* TITLE PANEL */
 .panel h2 {
   margin-top: 0;
   color: #ffcc00;
@@ -117,41 +111,36 @@ h2 {
   color: #ff4d4d;
 }
 
-/* HEADER */
 .panel-header {
   margin-bottom: 10px;
 }
 
-/* ISI PANEL */
 .panel-content {
   display: block;
   gap: 20px;
   flex: 1;
-  overflow: hidden; /* 🔥 penting */
+  overflow: hidden; 
 }
 
 .info, .char {
   flex: 1;
   display: flex;
   flex-direction: column;
-  min-height: 0; /* 🔥 WAJIB biar scroll hidup */
+  min-height: 0; 
 }
 
-/* JUDUL KOLOM */
 .info h3, .char h3 {
   margin: 0;
   padding-bottom: 5px;
   border-bottom: 2px solid #00aaff;
 }
 
-/* ISI DALAM KOLOM */
 .content {
   flex: 1;
   overflow-y: auto;
   padding-top: 10px;
 }
 
-/* GARIS TENGAH (biar ga ganggu header) */
 .info {
   border-right: 2px solid rgba(0,170,255,0.5);
   padding-right: 10px;
@@ -161,7 +150,6 @@ h2 {
   padding-left: 10px;
 }
 
-/* SCROLLBAR */
 .content::-webkit-scrollbar {
   width: 6px;
 }
@@ -171,7 +159,6 @@ h2 {
   border-radius: 10px;
 }
 
-/* SCROLLBAR (biar aesthetic dikit 😏) */
 .info::-webkit-scrollbar,
 .char::-webkit-scrollbar {
   width: 6px;
@@ -183,7 +170,6 @@ h2 {
   border-radius: 10px;
 }
 
-/* NAV BUTTON */
 .nav {
   position: absolute;
   bottom: 100px;
@@ -193,7 +179,6 @@ h2 {
   justify-content: space-between;
 }
 
-/* BUTTON STYLE */
 .prev, .next {
   background: rgba(255,255,255,0.1);
   padding: 8px 12px;
@@ -204,7 +189,6 @@ h2 {
   transition: 0.2s;
 }
 
-/* HOVER */
 .prev:hover, .next:hover {
   background: rgba(0,170,255,0.4);
 }
@@ -256,4 +240,40 @@ h2 {
   margin-top: 10px;
   padding: 5px;
   background: #111;
+}
+
+@media (max-width: 768px) {
+
+  .map-container {
+    width: 95%;
+  }
+
+  .panel {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .panel h2 {
+    font-size: 20px;
+  }
+
+  .point {
+    width: 18px;
+    height: 18px;
+  }
+
+  .prev, .next {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
