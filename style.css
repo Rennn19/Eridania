@@ -25,7 +25,8 @@ h2 {
 
 .map {
   position: relative;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 #map {
@@ -35,7 +36,7 @@ h2 {
 }
 
 #map {
-  touch-action: none;
+  touch-action: pan-x pan-y;
 }
 
 #map:active {
@@ -258,7 +259,7 @@ h2 {
 
   .map-container {
     width: 100%;
-    height: 100vh;        
+    height: auto;        
     aspect-ratio: unset;  
     border-radius: 0;     
   }
@@ -282,8 +283,8 @@ h2 {
   }
 
   .point {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
 
   .nav {
