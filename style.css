@@ -6,11 +6,13 @@ body {
   text-align: center;
 }
 
+/* JUDUL */
 h2 {
   margin: 20px 0;
   color: #ffcc00;
 }
 
+/* CONTAINER */
 .map-container {
   width: 90%;
   max-width: 900px;
@@ -29,6 +31,7 @@ h2 {
   width: 100%;
 }
 
+/* MAP */
 #map {
   position: relative;
   width: 100%;
@@ -36,7 +39,7 @@ h2 {
 }
 
 #map {
-  touch-action: pan-x pan-y;
+  touch-action: none;
 }
 
 #map:active {
@@ -51,6 +54,7 @@ h2 {
   border-radius: 10px;
 }
 
+/* TITIK */
 .point {
   position: absolute;
   width: 14px;
@@ -72,6 +76,7 @@ h2 {
   box-shadow: 0 0 15px #00aaff;
 }
 
+/* PANEL */
 .panel {
   position: fixed;
   right: 0;
@@ -86,7 +91,7 @@ h2 {
   display: flex;
   flex-direction: column;
 
-  transform: translateX(100%); 
+  transform: translateX(100%); /* 🔥 kunci */
   transition: 0.4s;
 }
 
@@ -111,10 +116,12 @@ h2 {
 }
 
 
+/* AKTIF */
 .panel:target {
   transform: translateX(0);
 }
 
+/* TITLE PANEL */
 .panel h2 {
   margin-top: 0;
   color: #ffcc00;
@@ -124,36 +131,41 @@ h2 {
   color: #ff4d4d;
 }
 
+/* HEADER */
 .panel-header {
   margin-bottom: 10px;
 }
 
+/* ISI PANEL */
 .panel-content {
   display: block;
   gap: 20px;
   flex: 1;
-  overflow: hidden; 
+  overflow: hidden; /* 🔥 penting */
 }
 
 .info, .char {
   flex: 1;
   display: flex;
   flex-direction: column;
-  min-height: 0; 
+  min-height: 0; /* 🔥 WAJIB biar scroll hidup */
 }
 
+/* JUDUL KOLOM */
 .info h3, .char h3 {
   margin: 0;
   padding-bottom: 5px;
   border-bottom: 2px solid #00aaff;
 }
 
+/* ISI DALAM KOLOM */
 .content {
   flex: 1;
   overflow-y: auto;
   padding-top: 10px;
 }
 
+/* GARIS TENGAH (biar ga ganggu header) */
 .info {
   border-right: 2px solid rgba(0,170,255,0.5);
   padding-right: 10px;
@@ -163,6 +175,7 @@ h2 {
   padding-left: 10px;
 }
 
+/* SCROLLBAR */
 .content::-webkit-scrollbar {
   width: 6px;
 }
@@ -172,6 +185,7 @@ h2 {
   border-radius: 10px;
 }
 
+/* SCROLLBAR (biar aesthetic dikit 😏) */
 .info::-webkit-scrollbar,
 .char::-webkit-scrollbar {
   width: 6px;
@@ -183,6 +197,7 @@ h2 {
   border-radius: 10px;
 }
 
+/* NAV BUTTON */
 .nav {
   position: absolute;
   bottom: 100px;
@@ -192,6 +207,7 @@ h2 {
   justify-content: space-between;
 }
 
+/* BUTTON STYLE */
 .prev, .next {
   background: rgba(255,255,255,0.1);
   padding: 8px 12px;
@@ -202,6 +218,7 @@ h2 {
   transition: 0.2s;
 }
 
+/* HOVER */
 .prev:hover, .next:hover {
   background: rgba(0,170,255,0.4);
 }
@@ -222,15 +239,24 @@ h2 {
 }
 
 .tab-btn.active {
-  background: #00aaff;
+  color: #00aaff;
+  text-shadow: 0 0 8px #00aaff;
 }
 
 .tab-content {
-  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
 }
 
 .tab-content.active {
-  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  position: relative;
 }
 
 .character-list {
@@ -257,23 +283,26 @@ h2 {
 
 @media (max-width: 768px) {
 
+  /* MAP */
   .map-container {
     width: 100%;
-    height: auto;        
-    aspect-ratio: unset;  
-    border-radius: 0;     
+    height: auto;        /* 🔥 tambahin ini */
+    aspect-ratio: unset;  /* 🔥 tambahin ini */
+    border-radius: 0;     /* opsional */
   }
 
   #map {
     position: relative;
   }
 
+  /* PANEL FULL SCREEN */
   .panel {
     width: 100%;
     height: 100%;
     padding: 15px;
   }
 
+  /* TEXT */
   h2 {
     font-size: 18px;
   }
@@ -282,6 +311,7 @@ h2 {
     font-size: 20px;
   }
 
+  /* TITIK LEBIH GEDE */
   .point {
     width: 10px;
     height: 10px;
@@ -290,7 +320,8 @@ h2 {
   .nav {
     margin-top: auto;
   }
-  
+
+  /* NAV BUTTON */
   .prev, .next {
     font-size: 16px;
     padding: 6px 10px;
@@ -300,4 +331,175 @@ h2 {
 
 html {
   scroll-behavior: smooth;
+}
+
+.desc {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.city-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.city-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,170,255,0.1);
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.city-card:hover {
+  background: rgba(0,170,255,0.3);
+  transform: scale(1.02);
+}
+
+.city-card h4 {
+  margin: 0;
+}
+
+.city-card span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.city-info {
+  text-align: left;
+}
+
+.city-btn {
+  background: #00aaff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.city-btn:hover {
+  background: #0088cc;
+}
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.character-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #1a1a1a, #0f2a3a);
+  padding: 8px;
+  border-radius: 10px;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.character-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0,170,255,0.4);
+}
+
+.character-card img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.char-info {
+  flex: 1;
+  text-align: left;
+}
+
+.char-info h4 {
+  margin: 0;
+}
+
+.char-info span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.character-card button {
+  background: #00aaff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.character-card button:hover {
+  background: #0088cc;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.popup.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-box {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+
+  box-shadow: 0 0 20px rgba(0,170,255,0.5);
+}
+
+.popup-box h3 {
+  margin-top: 0;
+  color: #00aaff;
+}
+
+.popup-box button {
+  margin-top: 15px;
+  padding: 6px 12px;
+  border: none;
+  background: #00aaff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popup-box button:hover {
+  background: #0088cc;
+}
+
+.tabs {
+  position: relative;
+}
+
+.tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 50%;
+  background: #00aaff;
+  transition: 0.3s;
+  left: 0;
 }
