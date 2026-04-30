@@ -3,7 +3,7 @@
 <head>
   <title>Eridania Map</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="style.css">
 </head>
@@ -50,24 +50,87 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button class="char-btn"
+  data-name="Valir"
+  data-desc="Pengendali api naga yang sangat kuat."
+>
+  Detail
+</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -93,24 +156,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -135,24 +256,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -176,24 +355,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -217,24 +454,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -257,24 +552,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -297,24 +650,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -337,24 +748,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -377,24 +846,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -417,24 +944,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -457,24 +1042,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -497,24 +1140,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -537,24 +1238,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -577,24 +1336,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -617,24 +1434,82 @@
     <div class="tabs">
     <button class="tab-btn active" data-tab="info">Information</button>
     <button class="tab-btn" data-tab="char">Character</button>
+
+    <div class="tab-indicator"></div>
   </div>
 
-  <div class="tab-content active" id="info">
-    <p>isi lore</p>
+  <!-- ================= INFO ================= -->
+    <div class="tab-content active" id="info">
+
+      <p class="desc">
+        Tanah yang dipenuhi energi naga kuno. Pegunungan dan reruntuhan di Valnoria
+        menyimpan kekuatan besar yang belum sepenuhnya terungkap.
+      </p>
+
+      <div class="city-list">
+
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
   </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-  <div class="tab-content" id="char">
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
 
-    <div class="character-list">
-      <div class="char-item" data-name="Lyra" data-desc="Mage dari utara">
-        Lyra
+        <div class="city-card" data-name="Drakoria" data-desc="Ibu kota naga">
+  <div class="city-info">
+    <h4>Drakoria</h4>
+    <span>Ibu kota naga</span>
+  </div>
+  <button class="city-btn">Detail</button>
+</div>
+
       </div>
+
     </div>
 
-    <div class="char-detail">
-      <h4>Pilih karakter</h4>
-      <p>Detail akan muncul disini</p>
-    </div>
+  <!-- ================= CHARACTER ================= -->
+    <div class="tab-content" id="char">
+
+      <div class="character-list">
+
+        <div class="character-card">
+          <img src="valir.jpg">
+          <div class="char-info">
+            <h4>Valir</h4>
+            <span>Pengendali Api Naga</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="drake_knight.jpg">
+          <div class="char-info">
+            <h4>Drake</h4>
+            <span>Dragon Knight</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+        <div class="character-card">
+          <img src="aeris.jpg">
+          <div class="char-info">
+            <h4>Aeris</h4>
+            <span>Penjaga Langit</span>
+          </div>
+          <button>Detail</button>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -647,8 +1522,33 @@
   <a href="#" class="close">✕</a>
 </div>
 
+<div id="city-popup" class="popup">
+  <div class="popup-box">
+
+    <h3 id="popup-title">Nama Kota</h3>
+    <p id="popup-desc">Deskripsi kota</p>
+
+    <button id="popup-close">Close</button>
+
+  </div>
+</div>
+
+<div id="char-popup" class="popup">
+  <div class="popup-box">
+
+    <img id="char-img" src="" style="width:80px; border-radius:50%;">
+    
+    <h3 id="char-title">Nama Character</h3>
+    <p id="char-desc">Deskripsi character</p>
+
+    <button id="char-close">Close</button>
+
+  </div>
+</div>
+
 <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="script.js"></script>
 
 <audio id="clickSound" src="click.mp3"></audio>
 <audio id="openSound" src="open.mp3"></audio>
+<audio id="tabSound" src="tab.mp3"></audio>
