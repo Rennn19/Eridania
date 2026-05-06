@@ -1,0 +1,1891 @@
+{
+  "yin": {
+    "name": "Yin",
+    "desc": "Pengguna kekuatan iblis sebagai wadah demon.",
+    "img": "assets/images/characters/yin.jpg",
+    "race": "demon",
+    "subRace": "demon_vessel"
+  },
+  "shizuka": {
+    "name": "Hiratsuka Shizuka",
+    "desc": "Manusia yang menjadi wadah kekuatan iblis.",
+    "img": "assets/images/characters/shizuka.jpg",
+    "race": "demon",
+    "subRace": "demon_vessel"
+  },
+  "arlott": {
+    "name": "Arlott",
+    "desc": "Setengah iblis dengan kekuatan tempur tinggi.",
+    "img": "assets/images/characters/arlott.jpg",
+    "race": "demon",
+    "subRace": "half_demon"
+  },
+  "ninym": {
+    "name": "Ninym Ralei",
+    "desc": "Makhluk setengah iblis dengan kecerdasan tinggi.",
+    "img": "assets/images/characters/ninym.jpg",
+    "race": "demon",
+    "subRace": "half_demon"
+  },
+  "zealot": {
+    "name": "Zealot",
+    "desc": "Pengikut fanatik dengan darah iblis.",
+    "img": "assets/images/characters/zealot.jpg",
+    "race": "demon",
+    "subRace": "half_demon"
+  },
+  "itto": {
+    "name": "Arataki Itto",
+    "desc": "Oni kuat dengan kekuatan brutal.",
+    "img": "assets/images/characters/itto.jpg",
+    "race": "demon",
+    "subRace": "oni"
+  },
+  "shuten": {
+    "name": "Shuten Douji",
+    "desc": "Oni legendaris dengan kekuatan destruktif.",
+    "img": "assets/images/characters/shuten.jpg",
+    "race": "demon",
+    "subRace": "oni"
+  },
+  "ibaraki": {
+    "name": "Ibaraki Douji",
+    "desc": "Oni ganas dengan kekuatan liar.",
+    "img": "assets/images/characters/ibaraki.jpg",
+    "race": "demon",
+    "subRace": "oni"
+  },
+  "nagayoshi": {
+    "name": "Mori Nagayoshi",
+    "desc": "Pejuang oni brutal di medan perang.",
+    "img": "assets/images/characters/nagayoshi.jpg",
+    "race": "demon",
+    "subRace": "oni"
+  },
+  "gozen": {
+    "name": "Tomoe Gozen",
+    "desc": "Oni wanita dengan kemampuan tempur luar biasa.",
+    "img": "assets/images/characters/gozen.jpg",
+    "race": "demon",
+    "subRace": "oni"
+  },
+  "apostae": {
+    "name": "Apostae",
+    "desc": "Succubus mematikan dengan daya tarik memikat.",
+    "img": "assets/images/characters/apostae.jpg",
+    "race": "demon",
+    "subRace": "succubus"
+  },
+  "hanzo": {
+    "name": "Hanzo",
+    "desc": "Akuma pembunuh dengan teknik bayangan.",
+    "img": "assets/images/characters/hanzo.jpg",
+    "race": "demon",
+    "subRace": "akuma"
+  },
+  "ren_p": {
+    "name": "Ren Pendragon",
+    "desc": "Akuma dengan kekuatan gelap misterius.",
+    "img": "assets/images/characters/ren_p.jpg",
+    "race": "demon",
+    "subRace": "akuma"
+  },
+  "thamuz": {
+    "name": "Thamuz",
+    "desc": "Iblis api penghancur.",
+    "img": "assets/images/characters/thamuz.jpg",
+    "race": "demon",
+    "subRace": "fire_demon"
+  },
+  "alice": {
+    "name": "Alice",
+    "desc": "Penguasa darah dengan kekuatan vampirik.",
+    "img": "assets/images/characters/alice.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "dyrroth": {
+    "name": "Dyrroth",
+    "desc": "Pangeran iblis dengan kekuatan destruktif.",
+    "img": "assets/images/characters/dyrroth.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "cecilion": {
+    "name": "Cecilion",
+    "desc": "Mage darah dengan kekuatan besar.",
+    "img": "assets/images/characters/cecilion.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "carmilla": {
+    "name": "Carmilla Ansaac",
+    "desc": "Iblis darah yang terikat oleh cinta dan kekuatan.",
+    "img": "assets/images/characters/carmilla.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "morpheus": {
+    "name": "Morpheus",
+    "desc": "Entitas iblis penguasa mimpi.",
+    "img": "assets/images/characters/morpheus.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "kotarou": {
+    "name": "Fuuma Kotarou",
+    "desc": "Pembunuh iblis dengan teknik mematikan.",
+    "img": "assets/images/characters/kotarou.jpg",
+    "race": "demon",
+    "subRace": "blood_demon"
+  },
+  "anna": {
+    "name": "Anna",
+    "desc": "Makhluk bayangan yang bergerak dalam kegelapan.",
+    "img": "assets/images/characters/anna.jpg",
+    "race": "demon",
+    "subRace": "shadow_demon"
+  },
+  "fischl": {
+    "name": "Fischl von Luftschloss Narfidort",
+    "desc": "Pengguna kekuatan bayangan bersama familiar.",
+    "img": "assets/images/characters/fischl.jpg",
+    "race": "demon",
+    "subRace": "shadow_demon"
+  },
+  "hanya": {
+    "name": "Hanya",
+    "desc": "Makhluk bayangan dengan kekuatan spiritual.",
+    "img": "assets/images/characters/hanya.jpg",
+    "race": "demon",
+    "subRace": "shadow_demon"
+  },
+  "ember": {
+    "name": "Ember",
+    "desc": "Makhluk bersayap dengan kekuatan unik.",
+    "img": "assets/images/characters/ember.jpg",
+    "race": "demon",
+    "subRace": "sankta"
+  },
+  "lifeng": {
+    "name": "Lifeng",
+    "desc": "Entitas misterius dari ras Anasa.",
+    "img": "assets/images/characters/lifeng.jpg",
+    "race": "demon",
+    "subRace": "anasa"
+  },
+  "pogranichnik": {
+    "name": "Pogranichnik",
+    "desc": "Makhluk Liberi dengan kekuatan unik.",
+    "img": "assets/images/characters/pogranichnik.jpg",
+    "race": "demon",
+    "subRace": "liberi"
+  },
+  "nobukatsu": {
+    "name": "Oda Nobukatsu",
+    "desc": "Majin dengan kekuatan iblis tingkat tinggi.",
+    "img": "assets/images/characters/nobukatsu.jpg",
+    "race": "demon",
+    "subRace": "majin"
+  },
+  "douman": {
+    "name": "Ashiya Douman",
+    "desc": "Penguasa iblis dengan kekuatan sihir gelap.",
+    "img": "assets/images/characters/douman.jpg",
+    "race": "demon",
+    "subRace": "demon_lord"
+  },
+  "laevatain": {
+    "name": "Laevatain",
+    "desc": "Makhluk Sarkaz dengan kekuatan besar.",
+    "img": "assets/images/characters/laevatain.jpg",
+    "race": "demon",
+    "subRace": "sarkaz"
+  },
+  "rista": {
+    "name": "Rista",
+    "desc": "Archdemon dengan kekuatan tinggi.",
+    "img": "assets/images/characters/rista.jpg",
+    "race": "demon",
+    "subRace": "archdemon"
+  },
+  "francesca": {
+    "name": "Francesca Prelati",
+    "desc": "Bangsa iblis bangsawan dengan kekuatan elit.",
+    "img": "assets/images/characters/francesca.jpg",
+    "race": "demon",
+    "subRace": "demon_noble"
+  },
+  "ryouma": {
+    "name": "Sakamoto Ryouma",
+    "desc": "Penguasa abyss dengan kekuatan besar.",
+    "img": "assets/images/characters/ryouma.jpg",
+    "race": "demon",
+    "subRace": "abyss_lord"
+  },
+  "nobunaga": {
+    "name": "Oda Nobunaga",
+    "desc": "Raja iblis dengan kekuatan absolut.",
+    "img": "assets/images/characters/nobunaga.jpg",
+    "race": "demon",
+    "subRace": "demon_king"
+  },
+  "tokinibara": {
+    "name": "Noctis Tokinibara",
+    "desc": "Kishin dengan kekuatan primordial.",
+    "img": "assets/images/characters/tokinibara.jpg",
+    "race": "demon",
+    "subRace": "kishin"
+  },
+  "k_ren": {
+    "name": "Kyoushuku Ren",
+    "desc": "Entitas kishin dengan kekuatan destruktif.",
+    "img": "assets/images/characters/k_ren.jpg",
+    "race": "demon",
+    "subRace": "kishin"
+  },
+
+  "tigreal": {
+    "name": "Tigreal Wertz",
+    "desc": "Guardian Angel pelindung umat manusia.",
+    "img": "assets/images/characters/tigreal.jpg",
+    "race": "angel",
+    "subRace": "guardian_angel"
+  },
+  "alucard": {
+    "name": "Alucard",
+    "desc": "Pemburu iblis dengan kekuatan suci.",
+    "img": "assets/images/characters/alucard.jpg",
+    "race": "angel",
+    "subRace": "guardian_angel"
+  },
+  "fanny": {
+    "name": "Fanny Wertz",
+    "desc": "Guardian Angel dengan mobilitas tinggi.",
+    "img": "assets/images/characters/fanny.jpg",
+    "race": "angel",
+    "subRace": "guardian_angel"
+  },
+  "granger": {
+    "name": "Granger",
+    "desc": "Guardian Angel dengan kekuatan senjata.",
+    "img": "assets/images/characters/granger.jpg",
+    "race": "angel",
+    "subRace": "guardian_angel"
+  },
+  "harith": {
+    "name": "Harith",
+    "desc": "Leonin Angel dengan kekuatan waktu.",
+    "img": "assets/images/characters/harith.jpg",
+    "race": "angel",
+    "subRace": "leonin_angel"
+  },
+  "silvanna": {
+    "name": "Silvanna",
+    "desc": "Demi Angel dengan kekuatan suci.",
+    "img": "assets/images/characters/silvanna.jpg",
+    "race": "angel",
+    "subRace": "demi_angel"
+  },
+  "freya": {
+    "name": "Freya",
+    "desc": "Valkyrie dengan kekuatan dewa perang.",
+    "img": "assets/images/characters/freya.jpg",
+    "race": "angel",
+    "subRace": "valkyrie"
+  },
+  "karihmet": {
+    "name": "Karihmet",
+    "desc": "Valkyrie dengan kekuatan tempur ilahi.",
+    "img": "assets/images/characters/karihmet.jpg",
+    "race": "angel",
+    "subRace": "valkyrie"
+  },
+  "jini": {
+    "name": "Hwang Jini",
+    "desc": "Archangel dengan kekuatan spiritual tinggi.",
+    "img": "assets/images/characters/jini.jpg",
+    "race": "angel",
+    "subRace": "archangel"
+  },
+  "argus": {
+    "name": "Argus",
+    "desc": "Fallen Angel yang terjatuh ke kegelapan.",
+    "img": "assets/images/characters/argus.jpg",
+    "race": "angel",
+    "subRace": "fallen_angel"
+  },
+  "aeltara": {
+    "name": "Aeltara",
+    "desc": "Primordial Angel dengan kekuatan purba.",
+    "img": "assets/images/characters/aeltara.jpg",
+    "race": "angel",
+    "subRace": "primordial_angel"
+  },
+  "rafaela": {
+    "name": "Rafaela",
+    "desc": "Seraphim penyembuh dengan cahaya suci.",
+    "img": "assets/images/characters/rafaela.jpg",
+    "race": "angel",
+    "subRace": "seraphim"
+  },
+  "gatotkaca": {
+    "name": "Gatotkaca",
+    "desc": "Seraphim dengan kekuatan fisik luar biasa.",
+    "img": "assets/images/characters/gatotkaca.jpg",
+    "race": "angel",
+    "subRace": "seraphim"
+  },
+  "sua": {
+    "name": "Nirami Sua",
+    "desc": "Seraphim dengan kekuatan ilahi tinggi.",
+    "img": "assets/images/characters/sua.jpg",
+    "race": "angel",
+    "subRace": "seraphim"
+
+  },
+  "nana": {
+    "name": "Nana",
+    "desc": "Leonin dengan kemampuan sihir unik.",
+    "img": "assets/images/characters/nana.jpg",
+    "race": "elf",
+    "subRace": "leonin"
+  },
+  "aulus": {
+    "name": "Aulus",
+    "desc": "Leonin petarung dengan kekuatan fisik tinggi.",
+    "img": "assets/images/characters/aulus.jpg",
+    "race": "elf",
+    "subRace": "leonin"
+  },
+  "joy": {
+    "name": "Joy",
+    "desc": "Leonin gesit dengan kekuatan listrik.",
+    "img": "assets/images/characters/joy.jpg",
+    "race": "elf",
+    "subRace": "leonin"
+  },
+  "miya": {
+    "name": "Miya",
+    "desc": "Moon Elf pemanah dengan presisi tinggi.",
+    "img": "assets/images/characters/miya.jpg",
+    "race": "elf",
+    "subRace": "moon_elf"
+  },
+  "estes": {
+    "name": "Estes",
+    "desc": "Moon Elf dengan kekuatan penyembuhan.",
+    "img": "assets/images/characters/estes.jpg",
+    "race": "elf",
+    "subRace": "moon_elf"
+  },
+  "irithel": {
+    "name": "Irithel",
+    "desc": "Moon Elf penunggang binatang buas.",
+    "img": "assets/images/characters/irithel.jpg",
+    "race": "elf",
+    "subRace": "moon_elf"
+  },
+  "eudora": {
+    "name": "Eudora",
+    "desc": "Sun Elf dengan kekuatan petir.",
+    "img": "assets/images/characters/eudora.jpg",
+    "race": "elf",
+    "subRace": "sun_elf"
+  },
+  "sipra": {
+    "name": "Astraia Sipra",
+    "desc": "Sun Elf dengan kekuatan cahaya.",
+    "img": "assets/images/characters/sipra.jpg",
+    "race": "elf",
+    "subRace": "sun_elf"
+  },
+  "lolita": {
+    "name": "Lolita",
+    "desc": "Half Elf dengan kekuatan pelindung.",
+    "img": "assets/images/characters/lolita.jpg",
+    "race": "elf",
+    "subRace": "half_elf"
+  },
+  "xavier": {
+    "name": "Xavier",
+    "desc": "Half Elf dengan kekuatan sihir cahaya.",
+    "img": "assets/images/characters/xavier.jpg",
+    "race": "elf",
+    "subRace": "half_elf"
+  },
+  "karina": {
+    "name": "Karina",
+    "desc": "Dark Elf pembunuh dengan kecepatan tinggi.",
+    "img": "assets/images/characters/karina.jpg",
+    "race": "elf",
+    "subRace": "dark_elf"
+  },
+  "selena": {
+    "name": "Selena",
+    "desc": "Dark Elf dengan kekuatan bayangan.",
+    "img": "assets/images/characters/selena.jpg",
+    "race": "elf",
+    "subRace": "dark_elf"
+  },
+  "obsidia": {
+    "name": "Obsidia",
+    "desc": "Dark Elf misterius dengan kekuatan gelap.",
+    "img": "assets/images/characters/obsidia.jpg",
+    "race": "elf",
+    "subRace": "dark_elf"
+  },
+  "gavana": {
+    "name": "Gavana",
+    "desc": "Primordial Elf dengan kekuatan kuno.",
+    "img": "assets/images/characters/gavana.jpg",
+    "race": "elf",
+    "subRace": "primordial_elf"
+  },
+
+  "sigewinne": {
+    "name": "Sigewinne",
+    "desc": "Melusine dengan kekuatan penyembuhan.",
+    "img": "assets/images/characters/sigewinne.jpg",
+    "race": "fairy",
+    "subRace": "melusine"
+  },
+  "agnes": {
+    "name": "Agnes",
+    "desc": "Fae dengan kekuatan magis.",
+    "img": "assets/images/characters/agnes.jpg",
+    "race": "fairy",
+    "subRace": "fae"
+  },
+  "ayaka": {
+    "name": "Sajyou Ayaka",
+    "desc": "Archfey dengan kekuatan tinggi.",
+    "img": "assets/images/characters/ayaka.jpg",
+    "race": "fairy",
+    "subRace": "archfey"
+  },
+  "oberon": {
+    "name": "Oberon Vortigern",
+    "desc": "Fairy King penguasa dunia fae.",
+    "img": "assets/images/characters/oberon.jpg",
+    "race": "fairy",
+    "subRace": "fairy_king"
+  },
+
+  "kintoki": {
+    "name": "Sakata Kintoki",
+    "desc": "Half Dragon dengan kekuatan luar biasa.",
+    "img": "assets/images/characters/kintoki.jpg",
+    "race": "dragon",
+    "subRace": "half_dragon"
+  },
+  "kagetora": {
+    "name": "Nagao Kagetora",
+    "desc": "Half Dragon dengan kemampuan tempur tinggi.",
+    "img": "assets/images/characters/kagetora.jpg",
+    "race": "dragon",
+    "subRace": "half_dragon"
+  },
+  "sekhet": {
+    "name": "Lionheart Sekhet",
+    "desc": "Dragon Lord dengan kekuatan ilahi.",
+    "img": "assets/images/characters/sekhet.jpg",
+    "race": "dragon",
+    "subRace": "veydrin"
+  },
+  "tefnut": {
+    "name": "Tefnut",
+    "desc": "Dragon Lord dengan kekuatan alam.",
+    "img": "assets/images/characters/tefnut.jpg",
+    "race": "dragon",
+    "subRace": "veydrin"
+  },
+  "oryou": {
+    "name": "Oryou",
+    "desc": "Primordial Dragon dengan kekuatan purba.",
+    "img": "assets/images/characters/oryou.jpg",
+    "race": "dragon",
+    "subRace": "primordial_dragon"
+  },
+  "yuzhong": {
+    "name": "Yu Zhong",
+    "desc": "Dragon Sovereign dengan kekuatan absolut.",
+    "img": "assets/images/characters/yuzhong.jpg",
+    "race": "dragon",
+    "subRace": "dragon_sovereign"
+  },
+  "dvalin": {
+    "name": "Dvalin",
+    "desc": "Dragon Sovereign penguasa langit.",
+    "img": "assets/images/characters/dvalin.jpg",
+    "race": "dragon",
+    "subRace": "dragon_sovereign"
+  },
+  "neuvillette": {
+    "name": "Neuvillette",
+    "desc": "Dragon Sovereign dengan kekuatan air.",
+    "img": "assets/images/characters/neuvillette.jpg",
+    "race": "dragon",
+    "subRace": "dragon_sovereign"
+  },
+
+  "balmond": {
+    "name": "Balmond",
+    "desc": "Orc King dengan kekuatan brutal.",
+    "img": "assets/images/characters/balmond.jpg",
+    "race": "orc",
+    "subRace": "orc_king"
+
+  },
+  "franco": {
+    "name": "Franco",
+    "desc": "Manusia petarung dengan kekuatan fisik tinggi.",
+    "img": "assets/images/characters/franco.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "bruno": {
+    "name": "Bruno",
+    "desc": "Manusia dengan kekuatan teknologi kaki.",
+    "img": "assets/images/characters/bruno.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "clint": {
+    "name": "Clint",
+    "desc": "Penembak jitu manusia.",
+    "img": "assets/images/characters/clint.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "layla": {
+    "name": "Layla Grant",
+    "desc": "Penembak dengan senjata energi.",
+    "img": "assets/images/characters/layla.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "hayabusa": {
+    "name": "Hayabusa",
+    "desc": "Ninja manusia dengan teknik bayangan.",
+    "img": "assets/images/characters/hayabusa.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "kagura": {
+    "name": "Kagura",
+    "desc": "Onmyoji manusia dengan kekuatan spiritual.",
+    "img": "assets/images/characters/kagura.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "chou": {
+    "name": "Chou",
+    "desc": "Petarung bela diri dengan kekuatan fisik tinggi.",
+    "img": "assets/images/characters/chou.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "ruby": {
+    "name": "Ruby",
+    "desc": "Gadis manusia dengan kekuatan sabit.",
+    "img": "assets/images/characters/ruby.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "hilda": {
+    "name": "Hilda",
+    "desc": "Petarung manusia dari suku barbar.",
+    "img": "assets/images/characters/hilda.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "harley": {
+    "name": "Harley Vance",
+    "desc": "Pesulap muda dengan kemampuan teleportasi.",
+    "img": "assets/images/characters/harley.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "odette": {
+    "name": "Odette Alvin",
+    "desc": "Putri kerajaan dengan kekuatan sihir angsa.",
+    "img": "assets/images/characters/odette.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "lancelot": {
+    "name": "Lancelot Baroque",
+    "desc": "Ksatria anggun dengan teknik pedang cepat.",
+    "img": "assets/images/characters/lancelot.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "lesley": {
+    "name": "Lesley Vance",
+    "desc": "Sniper elit dengan akurasi tinggi.",
+    "img": "assets/images/characters/lesley.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "ailee": {
+    "name": "Ailee Henry",
+    "desc": "Manusia dengan kemampuan tempur modern.",
+    "img": "assets/images/characters/ailee.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "gusion": {
+    "name": "Gusion Paxley",
+    "desc": "Mage assassin dengan kecepatan tinggi.",
+    "img": "assets/images/characters/gusion.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "valir": {
+    "name": "Valir",
+    "desc": "Pengendali api dengan kekuatan besar.",
+    "img": "assets/images/characters/valir.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "hanabi": {
+    "name": "Hanabi",
+    "desc": "Kunoichi dengan senjata shuriken mematikan.",
+    "img": "assets/images/characters/hanabi.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "claude": {
+    "name": "Claude",
+    "desc": "Pencuri lincah dengan bantuan partner monyet.",
+    "img": "assets/images/characters/claude.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "vale": {
+    "name": "Vale",
+    "desc": "Mage pengendali angin.",
+    "img": "assets/images/characters/vale.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "kimmy": {
+    "name": "Kimmy",
+    "desc": "Ilmuwan dengan senjata energi canggih.",
+    "img": "assets/images/characters/kimmy.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "guinevere": {
+    "name": "Guinevere Baroque",
+    "desc": "Putri bangsawan dengan kekuatan sihir.",
+    "img": "assets/images/characters/guinevere.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "esmeralda": {
+    "name": "Esmeralda",
+    "desc": "Pengguna kekuatan bintang dan perisai.",
+    "img": "assets/images/characters/esmeralda.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "lylia": {
+    "name": "Lylia Solinst",
+    "desc": "Mage kecil dengan kekuatan gelap.",
+    "img": "assets/images/characters/lylia.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "masha": {
+    "name": "Masha",
+    "desc": "Petarung liar dengan kekuatan fisik besar.",
+    "img": "assets/images/characters/masha.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "popol": {
+    "name": "Popol",
+    "desc": "Pemburu muda dengan partner serigala.",
+    "img": "assets/images/characters/popol.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "benedetta": {
+    "name": "Benedetta",
+    "desc": "Assassin cepat dengan teknik pedang.",
+    "img": "assets/images/characters/benedetta.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "khaleed": {
+    "name": "Khaleed",
+    "desc": "Pejuang gurun dengan kekuatan pasir.",
+    "img": "assets/images/characters/khaleed.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "brody": {
+    "name": "Brody",
+    "desc": "Marksman dengan kekuatan abyssal.",
+    "img": "assets/images/characters/brody.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "mathilda": {
+    "name": "Mathilda",
+    "desc": "Support dengan kekuatan roh.",
+    "img": "assets/images/characters/mathilda.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "paquito": {
+    "name": "Paquito",
+    "desc": "Petinju dengan kekuatan pukulan tinggi.",
+    "img": "assets/images/characters/paquito.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "beatrix": {
+    "name": "Beatrix",
+    "desc": "Penembak dengan berbagai senjata.",
+    "img": "assets/images/characters/beatrix.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "aamon": {
+    "name": "Aamon Paxley",
+    "desc": "Assassin dengan kemampuan kamuflase.",
+    "img": "assets/images/characters/aamon.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "melissa": {
+    "name": "Melissa Paxley",
+    "desc": "Pengendali boneka dengan kekuatan unik.",
+    "img": "assets/images/characters/melissa.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "julian": {
+    "name": "Julian",
+    "desc": "Pejuang dengan kekuatan misterius.",
+    "img": "assets/images/characters/julian.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "fredrinn": {
+    "name": "Fredrinn Vance",
+    "desc": "Petarung kuat dengan ketahanan tinggi.",
+    "img": "assets/images/characters/fredrinn.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "ixia": {
+    "name": "Ixia",
+    "desc": "Marksman dengan senjata energi.",
+    "img": "assets/images/characters/ixia.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "cici": {
+    "name": "Cici Paxley",
+    "desc": "Petarung muda dari keluarga Paxley.",
+    "img": "assets/images/characters/cici.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "marcel": {
+    "name": "Marcel Paxley",
+    "desc": "Anggota keluarga Paxley dengan kekuatan sihir.",
+    "img": "assets/images/characters/marcel.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "hirara": {
+    "name": "Hirara",
+    "desc": "Manusia dengan kemampuan unik.",
+    "img": "assets/images/characters/hirara.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "dullahan": {
+    "name": "Darksteel Dullahan",
+    "desc": "Kesatria misterius dengan kekuatan gelap.",
+    "img": "assets/images/characters/dullahan.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "lunabelle": {
+    "name": "Melodic Lunabelle",
+    "desc": "Pengguna kekuatan musik magis.",
+    "img": "assets/images/characters/lunabelle.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "eris": {
+    "name": "Ultio Eris",
+    "desc": "Pejuang dengan kekuatan energi.",
+    "img": "assets/images/characters/eris.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "luna": {
+    "name": "Luna Amara",
+    "desc": "Pengguna kekuatan bulan.",
+    "img": "assets/images/characters/luna.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "clara": {
+    "name": "Miracle Clara",
+    "desc": "Gadis dengan kekuatan ajaib.",
+    "img": "assets/images/characters/clara.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "jean": {
+    "name": "Jean Gunhildr",
+    "desc": "Ksatria dengan kekuatan angin.",
+    "img": "assets/images/characters/jean.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "shinobu": {
+    "name": "Kuki Shinobu",
+    "desc": "Ninja dengan kemampuan listrik.",
+    "img": "assets/images/characters/shinobu.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "heizou": {
+    "name": "Shikanoin Heizou",
+    "desc": "Detektif dengan kemampuan bela diri.",
+    "img": "assets/images/characters/heizou.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "eru": {
+    "name": "Chitanda Eru",
+    "desc": "Gadis cerdas dengan rasa ingin tahu tinggi.",
+    "img": "assets/images/characters/eru.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "eula": {
+    "name": "Eula Lawrence",
+    "desc": "Ksatria dengan kekuatan cryo.",
+    "img": "assets/images/characters/eula.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "bennett": {
+    "name": "Bennett",
+    "desc": "Petualang dengan keberuntungan buruk.",
+    "img": "assets/images/characters/bennett.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "noelle": {
+    "name": "Noelle",
+    "desc": "Pelayan ksatria dengan kekuatan besar.",
+    "img": "assets/images/characters/noelle.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "shiki": {
+    "name": "Ryougi Shiki",
+    "desc": "Pembunuh dengan mata kematian.",
+    "img": "assets/images/characters/shiki.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "izou": {
+    "name": "Okada Izou",
+    "desc": "Samurai pembunuh legendaris.",
+    "img": "assets/images/characters/izou.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "erice": {
+    "name": "Utsumi Erice",
+    "desc": "Gadis dengan kekuatan misterius.",
+    "img": "assets/images/characters/erice.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "zenjuubou": {
+    "name": "Sugitani Zenjuubou",
+    "desc": "Pejuang dengan teknik unik.",
+    "img": "assets/images/characters/zenjuubou.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "takeru": {
+    "name": "Yamato Takeru",
+    "desc": "Pahlawan legendaris dengan kekuatan besar.",
+    "img": "assets/images/characters/takeru.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "tine": {
+    "name": "Tiné Chelc",
+    "desc": "Manusia dengan kemampuan unik.",
+    "img": "assets/images/characters/tine.jpg",
+    "race": "human",
+    "subRace": "sub_human"
+  },
+  "barats": {
+    "name": "Barats",
+    "desc": "Makhluk Politan dengan partner Detona.",
+    "img": "assets/images/characters/barats.jpg",
+    "race": "human",
+    "subRace": "politan"
+  },
+  "paimon": {
+    "name": "Paimon",
+    "desc": "Makhluk kecil misterius dari Politan.",
+    "img": "assets/images/characters/paimon.jpg",
+    "race": "human",
+    "subRace": "politan"
+
+  },
+  "feng": {
+    "name": "Feng",
+    "desc": "Pejuang dari wilayah Cadian.",
+    "img": "assets/images/characters/feng.jpg",
+    "race": "human",
+    "subRace": "cadian"
+  },
+  "keqing": {
+    "name": "Keqing",
+    "desc": "Pendekar listrik dari Cadian.",
+    "img": "assets/images/characters/keqing.jpg",
+    "race": "human",
+    "subRace": "cadian"
+  },
+  "yelan": {
+    "name": "Yelan",
+    "desc": "Agen rahasia dengan kekuatan air.",
+    "img": "assets/images/characters/yelan.jpg",
+    "race": "human",
+    "subRace": "cadian"
+  },
+  "yanfei": {
+    "name": "Yanfei",
+    "desc": "Ahli hukum dengan kekuatan api.",
+    "img": "assets/images/characters/yanfei.jpg",
+    "race": "human",
+    "subRace": "cadian"
+  },
+
+  "clorinde": {
+    "name": "Clorinde",
+    "desc": "Duelist dari Fontaine.",
+    "img": "assets/images/characters/clorinde.jpg",
+    "race": "human",
+    "subRace": "fontaine"
+  },
+  "lyney": {
+    "name": "Lyney",
+    "desc": "Pesulap dengan trik mematikan.",
+    "img": "assets/images/characters/lyney.jpg",
+    "race": "human",
+    "subRace": "fontaine"
+  },
+  "lynette": {
+    "name": "Lynette",
+    "desc": "Asisten pesulap dengan gerakan cepat.",
+    "img": "assets/images/characters/lynette.jpg",
+    "race": "human",
+    "subRace": "fontaine"
+  },
+  "wriothesley": {
+    "name": "Wriothesley",
+    "desc": "Penjaga penjara dengan kekuatan fisik besar.",
+    "img": "assets/images/characters/wriothesley.jpg",
+    "race": "human",
+    "subRace": "fontaine"
+  },
+
+  "natalia": {
+    "name": "Natalia",
+    "desc": "Assassin suci dari kalangan Saint.",
+    "img": "assets/images/characters/natalia.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+  "change": {
+    "name": "Chang'e",
+    "desc": "Mage bulan dari kalangan Saint.",
+    "img": "assets/images/characters/change.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+  "luoyi": {
+    "name": "Luo Yi",
+    "desc": "Pengendali yin-yang dari Saint.",
+    "img": "assets/images/characters/luoyi.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+  "bai": {
+    "name": "Bai",
+    "desc": "Individu Saint dengan kekuatan unik.",
+    "img": "assets/images/characters/bai.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+  "beatrice": {
+    "name": "Beatrice",
+    "desc": "Pengguna kekuatan suci.",
+    "img": "assets/images/characters/beatrice.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+  "rin": {
+    "name": "Tohsaka Rin",
+    "desc": "Mage berbakat dari kalangan Saint.",
+    "img": "assets/images/characters/rin.jpg",
+    "race": "human",
+    "subRace": "saint"
+  },
+
+  "minsitthar": {
+    "name": "Minsitthar",
+    "desc": "Raja bijak dari kalangan Sage.",
+    "img": "assets/images/characters/minsitthar.jpg",
+    "race": "human",
+    "subRace": "sage"
+  },
+  "natan": {
+    "name": "Natan",
+    "desc": "Penjelajah waktu dari Sage.",
+    "img": "assets/images/characters/natan.jpg",
+    "race": "human",
+    "subRace": "sage"
+  },
+  "florence": {
+    "name": "Florence",
+    "desc": "Individu Sage dengan kecerdasan tinggi.",
+    "img": "assets/images/characters/florence.jpg",
+    "race": "human",
+    "subRace": "sage"
+  },
+  "kazuha": {
+    "name": "Kaedehara Kazuha",
+    "desc": "Pendekar angin dari Sage.",
+    "img": "assets/images/characters/kazuha.jpg",
+    "race": "human",
+    "subRace": "sage"
+  },
+  "houtarou": {
+    "name": "Oreki Houtarou",
+    "desc": "Jenius observasi dari Sage.",
+    "img": "assets/images/characters/houtarou.jpg",
+    "race": "human",
+    "subRace": "sage"
+  },
+
+  "saber": {
+    "name": "Saber",
+    "desc": "Cyborg dengan kemampuan tempur tinggi.",
+    "img": "assets/images/characters/saber.jpg",
+    "race": "human",
+    "subRace": "cyborg"
+  },
+  "alpha": {
+    "name": "Alpha",
+    "desc": "Cyborg dengan kekuatan mekanis.",
+    "img": "assets/images/characters/alpha.jpg",
+    "race": "human",
+    "subRace": "cyborg"
+  },
+  "johnson": {
+    "name": "Johnson",
+    "desc": "Cyborg transformasi kendaraan.",
+    "img": "assets/images/characters/johnson.jpg",
+    "race": "human",
+    "subRace": "cyborg"
+  },
+  "x_borg": {
+    "name": "X.Borg",
+    "desc": "Cyborg dengan armor api.",
+    "img": "assets/images/characters/x_borg.jpg",
+    "race": "human",
+    "subRace": "cyborg"
+  },
+
+  "yi_sun_shin": {
+    "name": "Yi Sun-shin",
+    "desc": "Hero terpilih dengan kepemimpinan tinggi.",
+    "img": "assets/images/characters/yi_sun_shin.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "lapu_lapu": {
+    "name": "Lapu-Lapu",
+    "desc": "Pahlawan legendaris dengan kekuatan besar.",
+    "img": "assets/images/characters/lapu_lapu.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "badang": {
+    "name": "Badang",
+    "desc": "Petarung dengan kekuatan pukulan besar.",
+    "img": "assets/images/characters/badang.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "suyou": {
+    "name": "Suyou",
+    "desc": "Hero dengan kemampuan unik.",
+    "img": "assets/images/characters/suyou.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "zetian": {
+    "name": "Zetian",
+    "desc": "Penguasa dengan kekuatan absolut.",
+    "img": "assets/images/characters/zetian.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "ais": {
+    "name": "Ais Wallenstein",
+    "desc": "Hero dengan kekuatan pedang luar biasa.",
+    "img": "assets/images/characters/ais.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "bell": {
+    "name": "Bell Cranel",
+    "desc": "Petualang dengan potensi besar.",
+    "img": "assets/images/characters/bell.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "erza": {
+    "name": "Erza Scarlet",
+    "desc": "Ksatria dengan armor sihir.",
+    "img": "assets/images/characters/erza.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "natsu": {
+    "name": "Natsu Dragneel",
+    "desc": "Pengguna api naga.",
+    "img": "assets/images/characters/natsu.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "lucy": {
+    "name": "Lucy Heartfilia",
+    "desc": "Mage dengan kekuatan celestial.",
+    "img": "assets/images/characters/lucy.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "artoria": {
+    "name": "Artoria Pendragon",
+    "desc": "Raja ksatria legendaris.",
+    "img": "assets/images/characters/artoria.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "arthur": {
+    "name": "Arthur Pendragon",
+    "desc": "Pahlawan legendaris dengan pedang suci.",
+    "img": "assets/images/characters/arthur.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "lumine": {
+    "name": "Lumine",
+    "desc": "Traveler dengan kekuatan elemen.",
+    "img": "assets/images/characters/lumine.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "diluc": {
+    "name": "Diluc Ragnvindr",
+    "desc": "Petarung api dengan kekuatan besar.",
+    "img": "assets/images/characters/diluc.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "shirou": {
+    "name": "Emiya Shirou",
+    "desc": "Pahlawan dengan kekuatan proyeksi senjata.",
+    "img": "assets/images/characters/shirou.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "musashi": {
+    "name": "Miyamoto Musashi",
+    "desc": "Pendekar pedang legendaris.",
+    "img": "assets/images/characters/musashi.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+  "hippolyta": {
+    "name": "Hippolyta",
+    "desc": "Ratu pejuang dengan kekuatan besar.",
+    "img": "assets/images/characters/hippolyta.jpg",
+    "race": "human",
+    "subRace": "hero"
+  },
+
+  "moskov": {
+    "name": "Moskov",
+    "desc": "Manusia yang telah terkorupsi kekuatan gelap.",
+    "img": "assets/images/characters/moskov.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "terizla": {
+    "name": "Terizla",
+    "desc": "Pejuang yang berubah karena korupsi kekuatan.",
+    "img": "assets/images/characters/terizla.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "phoveus": {
+    "name": "Phoveus",
+    "desc": "Manusia yang terkorupsi kekuatan gelap.",
+    "img": "assets/images/characters/phoveus.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "nolan": {
+    "name": "Nolan Osborne",
+    "desc": "Manusia dengan kekuatan teknologi misterius.",
+    "img": "assets/images/characters/nolan.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "valentina": {
+    "name": "Valentina Paxley",
+    "desc": "Pengguna sihir gelap dari keluarga Paxley.",
+    "img": "assets/images/characters/valentina.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "cluster": {
+    "name": "Apexis Cluster",
+    "desc": "Entitas manusia terkorupsi energi asing.",
+    "img": "assets/images/characters/cluster.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "kaeya": {
+    "name": "Kaeya Alberich",
+    "desc": "Ksatria dengan kekuatan cryo.",
+    "img": "assets/images/characters/kaeya.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "sakura": {
+    "name": "Matou Sakura",
+    "desc": "Gadis dengan kekuatan gelap tersembunyi.",
+    "img": "assets/images/characters/sakura.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "hokusai": {
+    "name": "Katsushika Hokusai",
+    "desc": "Seniman dengan kekuatan eldritch.",
+    "img": "assets/images/characters/hokusai.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "souji": {
+    "name": "Okita Souji",
+    "desc": "Pendekar cepat dengan teknik mematikan.",
+    "img": "assets/images/characters/souji.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "kirei": {
+    "name": "Kotomine Kirei",
+    "desc": "Manipulator dengan kekuatan gelap.",
+    "img": "assets/images/characters/kirei.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "kiritsugu": {
+    "name": "Emiya Kiritsugu",
+    "desc": "Pembunuh dengan strategi brutal.",
+    "img": "assets/images/characters/kiritsugu.jpg",
+    "race": "human",
+    "subRace": "corrupted"
+  },
+  "richard": {
+    "name": "Richard I",
+    "desc": "Raja manusia dengan kekuatan kepemimpinan.",
+    "img": "assets/images/characters/richard.jpg",
+    "race": "human",
+    "subRace": "king"
+  },
+
+  "khufra": {
+    "name": "Khufra",
+    "desc": "Mummy dengan kekuatan kutukan.",
+    "img": "assets/images/characters/khufra.jpg",
+    "race": "undead",
+    "subRace": "mummy"
+  },
+  "leomord": {
+    "name": "Leomord",
+    "desc": "Death Knight dengan kekuatan tempur tinggi.",
+    "img": "assets/images/characters/leomord.jpg",
+    "race": "undead",
+    "subRace": "death_knight"
+  },
+  "faramis": {
+    "name": "Faramis",
+    "desc": "Necromancer pengendali jiwa.",
+    "img": "assets/images/characters/faramis.jpg",
+    "race": "undead",
+    "subRace": "necromancer"
+  },
+  "izumi": {
+    "name": "Miyamura Izumi",
+    "desc": "Arch Lich dengan kekuatan besar.",
+    "img": "assets/images/characters/izumi.jpg",
+    "race": "undead",
+    "subRace": "arch_lich"
+  },
+  "kyouko": {
+    "name": "Hori Kyouko",
+    "desc": "Arch Lich dengan kekuatan spiritual.",
+    "img": "assets/images/characters/kyouko.jpg",
+    "race": "undead",
+    "subRace": "arch_lich"
+  },
+  "vexana": {
+    "name": "Vexana",
+    "desc": "Cursed Queen dengan kekuatan necromancy.",
+    "img": "assets/images/characters/vexana.jpg",
+    "race": "undead",
+    "subRace": "cursed_queen"
+  },
+  "shikibu": {
+    "name": "Murasaki Shikibu",
+    "desc": "Primordial Undead dengan kekuatan tinggi.",
+    "img": "assets/images/characters/shikibu.jpg",
+    "race": "undead",
+    "subRace": "primordial_undead"
+  },
+
+  "chip": {
+    "name": "Chip",
+    "desc": "Rodent Beast dengan kecerdikan tinggi.",
+    "img": "assets/images/characters/chip.jpg",
+    "race": "beastman",
+    "subRace": "rodent_beast"
+  },
+  "diggie": {
+    "name": "Diggie",
+    "desc": "Anthropomorphic Owl dengan kecerdasan tinggi.",
+    "img": "assets/images/characters/diggie.jpg",
+    "race": "beastman",
+    "subRace": "anthropomorphic_owl"
+  },
+  "akai": {
+    "name": "Akai",
+    "desc": "Anthropomorphic Panda petarung.",
+    "img": "assets/images/characters/akai.jpg",
+    "race": "beastman",
+    "subRace": "anthropomorphic_panda"
+  },
+  "bane": {
+    "name": "Bane",
+    "desc": "Anthropomorphic Octopus dengan kekuatan laut.",
+    "img": "assets/images/characters/bane.jpg",
+    "race": "beastman",
+    "subRace": "anthropomorphic_octopus"
+  },
+  "roger": {
+    "name": "Roger",
+    "desc": "Werewolf dengan kekuatan buas.",
+    "img": "assets/images/characters/roger.jpg",
+    "race": "beastman",
+    "subRace": "werewolf"
+  },
+  "razor": {
+    "name": "Razor",
+    "desc": "Werewolf dengan insting liar.",
+    "img": "assets/images/characters/razor.jpg",
+    "race": "beastman",
+    "subRace": "werewolf"
+  },
+  "minotaur": {
+    "name": "Minotaur",
+    "desc": "Minoan dengan kekuatan fisik besar.",
+    "img": "assets/images/characters/minotaur.jpg",
+    "race": "beastman",
+    "subRace": "minoan"
+  },
+  "hylos": {
+    "name": "Hylos",
+    "desc": "Centaur penjaga hutan.",
+    "img": "assets/images/characters/hylos.jpg",
+    "race": "beastman",
+    "subRace": "centaur"
+  },
+  "lukas": {
+    "name": "Lukas",
+    "desc": "Sacred Beast dengan kekuatan tinggi.",
+    "img": "assets/images/characters/lukas.jpg",
+    "race": "beastman",
+    "subRace": "sacred_beast"
+  },
+  "kiara": {
+    "name": "Sesshouin Kiara",
+    "desc": "Primordial Beast dengan kekuatan luar biasa.",
+    "img": "assets/images/characters/kiara.jpg",
+    "race": "beastman",
+    "subRace": "primordial_beast"
+  },
+
+  "cyclops": {
+    "name": "Cyclops",
+    "desc": "Cyclops dengan kekuatan sihir mata tunggal.",
+    "img": "assets/images/characters/cyclops.jpg",
+    "race": "giant",
+    "subRace": "cyclops"
+  },
+  "sinmara": {
+    "name": "Kryos Sinmara",
+    "desc": "Elemental Giant dengan kekuatan es dan api.",
+    "img": "assets/images/characters/sinmara.jpg",
+    "race": "giant",
+    "subRace": "elemental_giant"
+  },
+
+  "gloo": {
+    "name": "Gloo",
+    "desc": "Demon Slime dengan tubuh fleksibel.",
+    "img": "assets/images/characters/gloo.jpg",
+    "race": "slime",
+    "subRace": "demon_slime"
+  },
+
+  "aurora": {
+    "name": "Aurora",
+    "desc": "Ice Elemental dengan kekuatan es.",
+    "img": "assets/images/characters/aurora.jpg",
+    "race": "elemental",
+    "subRace": "ice_elemental"
+  },
+  "gord": {
+    "name": "Gord",
+    "desc": "Arcane Elemental dengan kekuatan sihir murni.",
+    "img": "assets/images/characters/gord.jpg",
+    "race": "elemental",
+    "subRace": "arcane_elemental"
+  },
+  "novaria": {
+    "name": "Novaria",
+    "desc": "Cosmic Elemental dengan kekuatan bintang.",
+    "img": "assets/images/characters/novaria.jpg",
+    "race": "elemental",
+    "subRace": "cosmic_elemental"
+  },
+  "helcurt": {
+    "name": "Helcurt",
+    "desc": "Shadowbringer dengan kekuatan kegelapan.",
+    "img": "assets/images/characters/helcurt.jpg",
+    "race": "elemental",
+    "subRace": "shadowbringer"
+  },
+
+  "belerick": {
+    "name": "Belerick",
+    "desc": "Kodama penjaga alam.",
+    "img": "assets/images/characters/belerick.jpg",
+    "race": "spirit",
+    "subRace": "kodama"
+  },
+  "floryn": {
+    "name": "Floryn",
+    "desc": "Kodama dengan kekuatan penyembuhan.",
+    "img": "assets/images/characters/floryn.jpg",
+    "race": "spirit",
+    "subRace": "kodama"
+  },
+  "pharsa": {
+    "name": "Pharsa",
+    "desc": "Tengu dengan kekuatan udara.",
+    "img": "assets/images/characters/pharsa.jpg",
+    "race": "spirit",
+    "subRace": "tengu"
+  },
+  "sara": {
+    "name": "Kujou Sara",
+    "desc": "Tengu dengan kemampuan tempur tinggi.",
+    "img": "assets/images/characters/sara.jpg",
+    "race": "spirit",
+    "subRace": "tengu"
+  },
+  "sun": {
+    "name": "Sun",
+    "desc": "Sarugami dengan kemampuan kloning.",
+    "img": "assets/images/characters/sun.jpg",
+    "race": "spirit",
+    "subRace": "sarugami"
+  },
+  "sora": {
+    "name": "Sora",
+    "desc": "Unkai dengan kekuatan langit.",
+    "img": "assets/images/characters/sora.jpg",
+    "race": "spirit",
+    "subRace": "unkai"
+  },
+  "kadita": {
+    "name": "Kadita",
+    "desc": "Suijin penguasa laut.",
+    "img": "assets/images/characters/kadita.jpg",
+    "race": "spirit",
+    "subRace": "suijin"
+  },
+  "kalea": {
+    "name": "Kalea",
+    "desc": "Suijin dengan kekuatan air.",
+    "img": "assets/images/characters/kalea.jpg",
+    "race": "spirit",
+    "subRace": "suijin"
+  },
+  "tia": {
+    "name": "Tia",
+    "desc": "Suijin dengan kekuatan air.",
+    "img": "assets/images/characters/tia.jpg",
+    "race": "spirit",
+    "subRace": "suijin"
+  },
+  "medusa": {
+    "name": "Medusa",
+    "desc": "Suijin dengan kekuatan kutukan.",
+    "img": "assets/images/characters/medusa.jpg",
+    "race": "spirit",
+    "subRace": "suijin"
+  },
+  "yukino": {
+    "name": "Yukinoshita Yukino",
+    "desc": "Yuki-onna dengan kekuatan es.",
+    "img": "assets/images/characters/yukino.jpg",
+    "race": "spirit",
+    "subRace": "yuki_onna"
+  },
+  "miko": {
+    "name": "Yae Miko",
+    "desc": "Kitsune dengan kekuatan ilusi.",
+    "img": "assets/images/characters/miko.jpg",
+    "race": "spirit",
+    "subRace": "kitsune"
+  },
+  "zhuxin": {
+    "name": "Zhuxin",
+    "desc": "Chō no Rei dengan kekuatan spiritual.",
+    "img": "assets/images/characters/zhuxin.jpg",
+    "race": "spirit",
+    "subRace": "cho_no_rei"
+  },
+  "baxia": {
+    "name": "Baxia",
+    "desc": "Genbu dengan pertahanan kuat.",
+    "img": "assets/images/characters/baxia.jpg",
+    "race": "spirit",
+    "subRace": "genbu"
+  },
+  "zilong": {
+    "name": "Zilong",
+    "desc": "Seiryu dengan kekuatan naga.",
+    "img": "assets/images/characters/zilong.jpg",
+    "race": "spirit",
+    "subRace": "seiryu"
+  },
+  "wanwan": {
+    "name": "Wanwan",
+    "desc": "Byakko dengan kecepatan tinggi.",
+    "img": "assets/images/characters/wanwan.jpg",
+    "race": "spirit",
+    "subRace": "byakko"
+  },
+  "ling": {
+    "name": "Ling",
+    "desc": "Suzaku dengan kekuatan udara.",
+    "img": "assets/images/characters/ling.jpg",
+    "race": "spirit",
+    "subRace": "suzaku"
+  },
+
+  "jawhead": {
+    "name": "Jawhead",
+    "desc": "Robot tempur dengan kekuatan mekanis.",
+    "img": "assets/images/characters/jawhead.jpg",
+    "race": "tech",
+    "subRace": "robot"
+  },
+  "katheryne": {
+    "name": "Katheryne",
+    "desc": "Robot dengan fungsi pelayanan.",
+    "img": "assets/images/characters/katheryne.jpg",
+    "race": "tech",
+    "subRace": "robot"
+  },
+  "angela": {
+    "name": "Angela",
+    "desc": "Android dengan kemampuan support.",
+    "img": "assets/images/characters/angela.jpg",
+    "race": "tech",
+    "subRace": "android"
+  },
+  "alina": {
+    "name": "Sentient Alina",
+    "desc": "Android dengan kesadaran penuh.",
+    "img": "assets/images/characters/alina.jpg",
+    "race": "tech",
+    "subRace": "android"
+  },
+  "xeno": {
+    "name": "Xeno",
+    "desc": "Android dengan kekuatan unik.",
+    "img": "assets/images/characters/xeno.jpg",
+    "race": "tech",
+    "subRace": "android"
+  },
+  "illya": {
+    "name": "Illyasviel von Einzbern",
+    "desc": "Homunculus dengan kekuatan sihir tinggi.",
+    "img": "assets/images/characters/illya.jpg",
+    "race": "tech",
+    "subRace": "android"
+  },
+
+  "grock": {
+    "name": "Grock",
+    "desc": "Golem dengan tubuh batu raksasa.",
+    "img": "assets/images/characters/grock.jpg",
+    "race": "cosmic_entity",
+    "subRace": "golem"
+  },
+  "atlas": {
+    "name": "Atlas",
+    "desc": "Makhluk laut dalam dengan kekuatan besar.",
+    "img": "assets/images/characters/atlas.jpg",
+    "race": "cosmic_entity",
+    "subRace": "abysmal_sea_creature"
+  },
+  "zhask": {
+    "name": "Zhask",
+    "desc": "Makhluk luar angkasa dengan kekuatan psionik.",
+    "img": "assets/images/characters/zhask.jpg",
+    "race": "cosmic_entity",
+    "subRace": "extraterrestrial"
+  },
+  "yve": {
+    "name": "Yve",
+    "desc": "Entitas luar angkasa dengan kontrol ruang.",
+    "img": "assets/images/characters/yve.jpg",
+    "race": "cosmic_entity",
+    "subRace": "extraterrestrial"
+  },
+
+  "aldous": {
+    "name": "Aldous",
+    "desc": "Demi God dengan kekuatan pukulan besar.",
+    "img": "assets/images/characters/aldous.jpg",
+    "race": "cosmic_entity",
+    "subRace": "demi_god"
+  },
+  "edith": {
+    "name": "Edith",
+    "desc": "Demi God dengan kekuatan mekanis.",
+    "img": "assets/images/characters/edith.jpg",
+    "race": "cosmic_entity",
+    "subRace": "demi_god"
+  },
+  "heracles": {
+    "name": "Heracles",
+    "desc": "Demi God dengan kekuatan fisik luar biasa.",
+    "img": "assets/images/characters/heracles.jpg",
+    "race": "cosmic_entity",
+    "subRace": "demi_god"
+  },
+  "alcides": {
+    "name": "Alcides",
+    "desc": "Demi God dengan kekuatan tempur tinggi.",
+    "img": "assets/images/characters/alcides.jpg",
+    "race": "cosmic_entity",
+    "subRace": "demi_god"
+  },
+  "gilgamesh": {
+    "name": "Gilgamesh",
+    "desc": "Demi God dengan kekuatan raja.",
+    "img": "assets/images/characters/gilgamesh.jpg",
+    "race": "cosmic_entity",
+    "subRace": "demi_god"
+  },
+
+  "martis": {
+    "name": "Martis Shura",
+    "desc": "Ashura dengan kekuatan pertempuran tinggi.",
+    "img": "assets/images/characters/martis.jpg",
+    "race": "cosmic_entity",
+    "subRace": "ashura"
+  },
+  "karrie": {
+    "name": "Karrie",
+    "desc": "Yasson dengan kekuatan dimensi.",
+    "img": "assets/images/characters/karrie.jpg",
+    "race": "cosmic_entity",
+    "subRace": "yasson"
+  },
+  "kaja": {
+    "name": "Kaja",
+    "desc": "Nazar dengan kekuatan petir.",
+    "img": "assets/images/characters/kaja.jpg",
+    "race": "cosmic_entity",
+    "subRace": "nazar"
+  },
+  "uranus": {
+    "name": "Uranus",
+    "desc": "Aethereal dengan kekuatan regenerasi.",
+    "img": "assets/images/characters/uranus.jpg",
+    "race": "cosmic_entity",
+    "subRace": "aethereal"
+  },
+  "enkidu": {
+    "name": "Enkidu",
+    "desc": "Aethereal dengan kekuatan alam.",
+    "img": "assets/images/characters/enkidu.jpg",
+    "race": "cosmic_entity",
+    "subRace": "aethereal"
+  },
+
+  "venti": {
+    "name": "Venti",
+    "desc": "Archon penguasa angin.",
+    "img": "assets/images/characters/venti.jpg",
+    "race": "cosmic_entity",
+    "subRace": "archon"
+  },
+  "zhongli": {
+    "name": "Zhongli",
+    "desc": "Archon penguasa bumi.",
+    "img": "assets/images/characters/zhongli.jpg",
+    "race": "cosmic_entity",
+    "subRace": "archon"
+  },
+  "shogun": {
+    "name": "Raiden Shogun",
+    "desc": "Archon penguasa petir.",
+    "img": "assets/images/characters/shogun.jpg",
+    "race": "cosmic_entity",
+    "subRace": "archon"
+  },
+  "furina": {
+    "name": "Furina",
+    "desc": "Archon dengan kekuatan air.",
+    "img": "assets/images/characters/furina.jpg",
+    "race": "cosmic_entity",
+    "subRace": "archon"
+  },
+
+  "mystia": {
+    "name": "Mystic Mystia",
+    "desc": "Lesser God dengan kekuatan magis.",
+    "img": "assets/images/characters/mystia.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "akashic": {
+    "name": "Omniversal Akashic",
+    "desc": "Lesser God dengan kekuatan universal.",
+    "img": "assets/images/characters/akashic.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "crocell": {
+    "name": "Crocell",
+    "desc": "Lesser God dengan kekuatan es.",
+    "img": "assets/images/characters/crocell.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "forseti": {
+    "name": "Forseti",
+    "desc": "Lesser God dengan kekuatan hukum.",
+    "img": "assets/images/characters/forseti.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "hel": {
+    "name": "Hel",
+    "desc": "Lesser God penguasa kematian.",
+    "img": "assets/images/characters/hel.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "tsukuyomi": {
+    "name": "Tsukuyomi",
+    "desc": "Lesser God penguasa bulan.",
+    "img": "assets/images/characters/tsukuyomi.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+  "nino": {
+    "name": "Kyoushuku Nino",
+    "desc": "Lesser God dengan kekuatan misterius.",
+    "img": "assets/images/characters/nino.jpg",
+    "race": "cosmic_entity",
+    "subRace": "lesser_god"
+  },
+
+  "lunox": {
+    "name": "Lunox",
+    "desc": "Cosmic Divine dengan keseimbangan cahaya dan gelap.",
+    "img": "assets/images/characters/lunox.jpg",
+    "race": "cosmic_entity",
+    "subRace": "cosmic_divine"
+  },
+
+  "norns": {
+    "name": "Skuld Norns",
+    "desc": "God dengan kekuatan takdir.",
+    "img": "assets/images/characters/norns.jpg",
+    "race": "cosmic_entity",
+    "subRace": "god"
+  },
+  "amaterasu": {
+    "name": "Amaterasu",
+    "desc": "Dewa matahari dengan kekuatan cahaya.",
+    "img": "assets/images/characters/amaterasu.jpg",
+    "race": "cosmic_entity",
+    "subRace": "god"
+  },
+  "shar": {
+    "name": "Genesis Shar",
+    "desc": "Entitas ilahi dengan kekuatan penciptaan.",
+    "img": "assets/images/characters/shar.jpg",
+    "race": "cosmic_entity",
+    "subRace": "god"
+  },
+  "hestia": {
+    "name": "Hestia",
+    "desc": "Dewi dengan kekuatan api suci.",
+    "img": "assets/images/characters/hestia.jpg",
+    "race": "cosmic_entity",
+    "subRace": "god"
+  },
+  "shah_torre": {
+    "name": "Everblight Shah Torre",
+    "desc": "Primordial Cosmic dengan kekuatan absolut.",
+    "img": "assets/images/characters/shah_torre.jpg",
+    "race": "cosmic_entity",
+    "subRace": "primordial_cosmic"
+  }
+}

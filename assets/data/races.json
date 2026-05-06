@@ -1,0 +1,363 @@
+{
+  "demon": {
+    "name": "Demon",
+    "sub": {
+      "lesser_demon": {"name": "Lesser Demon","tier": "T15"},
+      "imp": {"name": "Imp","tier": "T15"},
+      "demon_spawn": {"name": "Demon Spawn","tier": "T15"},
+      "shadow_imp": {"name": "Shadow Imp","tier": "T15"},
+      "demon_vessel": {"name": "Demon Vessel","tier": "T10"},
+      "half_demon": {"name": "Half Demon","tier": "T10"},
+      "oni": {"name": "Oni","tier": "T5"},
+      "succubus": {"name": "Succubus","tier": "T5"},
+      "akuma": {"name": "Akuma","tier": "T5"},
+      "fire_demon": {"name": "Fire Demon","tier": "T5"},
+      "blood_demon": {"name": "Blood Demon","tier": "T5"},
+      "shadow_demon": {"name": "Shadow Demon","tier": "T5"},
+      "frost_demon": {"name": "Frost Demon","tier": "T5"},
+      "storm_demon": {"name": "Storm Demon","tier": "T5"},
+      "sankta": {"name": "Sankta","tier": "T5"},
+      "anasa": {"name": "Anasa","tier": "T5"},
+      "liberi": {"name": "Liberi","tier": "T5"},
+      "greater_demon": {"name": "Greater Demon","tier": "T4"},
+      "demon_eneral": {"name": "Demon General","tier": "T4"},
+      "hell_knight": {"name": "Hell Knight","tier": "T4"},
+      "majin": {"name": "Majin","tier": "T4"},
+      "demon_lord": {"name": "Demon Lord","tier": "T4"},
+      "sarkaz": {"name": "Sarkaz","tier": "T4"},
+      "archdemon": {"name": "Archdemon","tier": "T4"},
+      "demon_noble": {"name": "Demon Noble","tier": "T3"},
+      "hell_lord": {"name": "Hell Lord","tier": "T3"},
+      "abyss_lord": {"name": "Abyss Lord","tier": "T3"},
+      "blood_lord": {"name": "Blood Lord","tier": "T3"},
+      "demon_king": {"name": "Demon King","tier": "T1"},
+      "primordial_demon": {"name": "Primordial Demon","tier": "T1"},
+      "kishin": {"name": "Kishin","tier": "T0"}
+    }
+  },
+
+  "angel": {
+    "name": "Angel",
+    "sub": {
+      "lesser_angel": {"name": "Lesser Angel","tier": "T12"},
+      "tenshi": {"name": "Tenshi","tier": "T12"},
+      "cherub": {"name": "Cherub","tier": "T12"},
+      "guardian_angel": {"name": "Guardian Angel","tier": "T10"},
+      "leonin_angel": {"name": "Leonin Angel","tier": "T10"},
+      "demi_angel": {"name": "Demi Angel","tier": "T9"},
+      "greater_angel": {"name": "Greater Angel","tier": "T8"},
+      "virtue": {"name": "Virtue","tier": "T8"},
+      "divine_guardian": {"name": "Divine Guardian","tier": "T8"},
+      "valkyrie": {"name": "Valkyrie","tier": "T8"},
+      "archangel": {"name": "Archangel","tier": "T8"},
+      "fallen_angel": {"name": "Fallen Angel","tier": "T5"},
+      "divine_angel": {"name": "Divine Angel","tier": "T5"},
+      "primordial_angel": {"name": "Primordial Angel","tier": "T3"},
+      "seraphim": {"name": "Seraphim","tier": "T1"}
+    }
+  },
+
+  "elf": {
+    "name": "Elf",
+    "sub": {
+      "lesser_elf": {"name": "Lesser Elf","tier": "T17"},
+      "sub_elf": {"name": "Elf", "tier": "T17"},
+      "elf_scout": {"name": "Elf Scout", "tier": "T17"},
+      "elemental_elf": {"name": "Elemental Elf","tier": "T13"},
+      "leonin": {"name": "Leonin","tier": "T13"},
+      "moon_elf": {"name": "Moon Elf","tier": "T13"},
+      "sun_elf": {"name": "Sun Elf","tier": "T13"},
+      "half_elf": {"name": "Half Elf","tier": "T9"},
+      "dark_elf": {"name": "Dark Elf","tier": "T7"},
+      "high_elf": {"name": "High Elf","tier": "T7"},
+      "elder_elf": {"name": "Elder Elf","tier": "T6"},
+      "druid": {"name": "Druid","tier": "T6"},
+      "elf_lord": {"name": "Elf Lord","tier": "T5"},
+      "elf_king": {"name": "Elf King","tier": "T5"},
+      "primordial_elf": {"name": "Primordial Elf","tier": "T4"}
+    }
+  },
+
+  "fairy": {
+    "name": "Fairy",
+    "sub": {
+      "sprite": {"name": "Sprite","tier": "T20"},
+      "pixie": {"name": "Pixie","tier": "T20"},
+      "sub_fairy": {"name": "Fairy","tier": "T15"},
+      "dryad": {"name": "Dryad","tier": "T13"},
+      "nymph": {"name": "Nymph","tier": "T13"},
+      "forest_spirit": {"name": "Forest Spirit","tier": "T13"},
+      "melusine": {"name": "Melusine","tier": "T13"},
+      "fae": {"name": "Fae","tier": "T7"},
+      "noble_fae": {"name": "Noble Fae","tier": "T7"},
+      "fae_lord": {"name": "Fae Lord","tier": "T5"},
+      "archfey": {"name": "Archfey","tier": "T5"},
+      "fairy_king": {"name": "Fairy King","tier": "T6"},
+      "fairy_queen": {"name": "Fairy Queen","tier": "T6"},
+      "primordial_fairy": {"name": "Primordial Fairy","tier": "T1"},
+      "first_fae": {"name": "First Fae", "tier": "T1"},
+      "eternal_fae": {"name": "Eternal Fae", "tier": "T1"}
+    }
+  },
+
+  "ogre": {
+    "name": "Ogre",
+    "sub": {
+      "lesser_ogre": {"name": "Lesser Ogre","tier": "T18"},
+      "ogreling": {"name": "Ogreling", "tier": "T18"},
+      "sub_ogre": {"name": "Ogre","tier": "T16"},
+      "shaman_ogre": {"name": "Shaman Ogre","tier": "T14"},
+      "berserker_ogre": {"name": "Berserker Ogre","tier": "T14"},
+      "elite_ogre": {"name": "Elite Ogre","tier": "T12"},
+      "ancient_ogre": {"name": "Ancient Ogre","tier": "T7"},
+      "ogre_king": {"name": "Ogre King","tier": "T4"},
+      "kijin": {"name": "Kijin","tier": "T4"},
+      "ryuuki": {"name": "Ryuuki","tier": "T3"},
+      "primordial_ogre": {"name": "Primordial Ogre","tier": "T2"}
+    }
+  },
+
+  "dragon": {
+    "name": "Dragon",
+    "sub": {
+      "wyrmling": {"name": "Wyrmling","tier": "T9"},
+      "drake": {"name": "Drake","tier": "T9"},
+      "wyvern": {"name": "Wyvern","tier": "T9"},
+      "lesser_dragon": {"name": "Lesser Dragon", "tier": "T9"},
+      "true_dragon": {"name": "True Dragon","tier": "T7"},
+      "elemental_dragon": {"name": "Elemental Dragon","tier": "T7"},
+      "elder_dragon": {"name": "Elder Dragon","tier": "T6"},
+      "hydra": {"name": "Hydra","tier": "T6"},
+      "amphithere": {"name": "Amphithere", "tier": "T6"},
+      "lindworm": {"name": "Lindworm", "tier": "T6"},
+      "ancient_dragon": {"name": "Ancient Dragon", "tier": "T6"},
+      "dragonkin": {"name": "Dragonkin","tier": "T5"},
+      "half_dragon": {"name": "Half Dragon", "tier": "T5"},
+      "celestial_dragon": {"name": "Celestial Dragon","tier": "T4"},
+      "void_dragon": {"name": "Void Dragon", "tier": "T4"},
+      "divine_dragon": {"name": "Divine Dragon", "tier": "T4"},
+      "dragon_lord": {"name": "Dragon Lord","tier": "T3"},
+      "bone_dragon": {"name": "Bone Dragon", "tier": "T3"},
+      "plague_dragon": {"name": "Plague Dragon", "tier": "T3"},
+      "cursed_dragon": {"name": "Cursed Dragon", "tier": "T3"},
+      "veydrin": {"name": "Veydrin", "tier": "T3"},
+      "primordial_dragon": {"name": "Primordial Dragon","tier": "T2"},
+      "dragon_sovereign": {"name": "Dragon Sovereign","tier": "T1"}
+    }
+  },
+
+  "orc": {
+    "name": "Orc",
+    "sub": {
+      "orc_grunt": {"name": "Orc Grunt", "tier": "T19"},
+      "orc_warrior": {"name": "Orc Warrior", "tier": "T17"},
+      "high_orc": {"name": "High Orc", "tier": "T16"},
+      "orc_warlord": {"name": "Orc Warlord", "tier": "T16"},
+      "ancient_orc": {"name": "Ancient Orc", "tier": "T12"},
+      "orc_lord": {"name": "Orc Lord", "tier": "T11"},
+      "orc_king": {"name": "Orc King", "tier": "T9"},
+      "primordial_orc": {"name": "Primordial Orc", "tier": "T7"}
+    }
+  },
+
+  "human": {
+    "name": "Human",
+    "sub": {
+      "sub_human": {"name": "Human","tier": "T18"},
+      "politan": {"name": "Politan","tier": "T16"},
+      "cadian": {"name": "Cadian","tier": "T16"},
+      "fontaine": {"name": "Fontaine","tier": "T16"},
+      "saint": {"name": "Saint","tier": "T13"},
+      "sage": {"name": "Sage","tier": "T13"},
+      "cyborg": {"name": "Cyborg","tier": "T11"},
+      "hero": {"name": "Hero","tier": "T10"},
+      "corrupted": {"name": "Corrupted Human","tier": "T6"},
+      "king": {"name": "King","tier": "T5"}
+    }
+  },
+
+  "undead": {
+    "name": "Undead",
+    "sub": {
+      "skeleton": {"name": "Skeleton","tier": "T19"},
+      "zombie": {"name": "Zombie","tier": "T19"},
+      "ghoul": {"name": "Ghoul","tier": "T19"},
+      "wraith": {"name": "Wraith","tier": "T14"},
+      "banshee": {"name": "Banshee","tier": "T14"},
+      "phantom": {"name": "Phantom", "tier": "T14"},
+      "revenant": {"name": "Revenant","tier": "T12"},
+      "mummy": {"name": "Mummy","tier": "T12"},
+      "cursed_knight": {"name": "Cursed Knight", "tier": "T12"},
+      "vampire": {"name": "Vampire","tier": "T11"},
+      "death_knight": {"name": "Death Knight","tier": "T11"},
+      "bone_golem": {"name": "Bone Golem", "tier": "T11"},
+      "plague_undead": {"name": "Plague Undead", "tier": "T11"},
+      "necromancer": {"name": "Necromancer","tier": "T10"},
+      "lich": {"name": "Lich","tier": "T10"},
+      "elder_lich": {"name": "Elder Lich", "tier": "T2"},
+      "arch_lich": {"name": "Arch Lich", "tier": "T2"},
+      "cursed_queen": {"name": "Cursed Queen","tier": "T5"},
+      "lich_king": {"name": "Lich King", "tier": "T5"},
+      "undead_overlord": {"name": "Undead Overlord","tier": "T2"},
+      "primordial_undead": {"name": "Primordial Undead", "tier": "T2"}
+    }
+  },
+
+   "beastman": {
+    "name": "Beastman",
+    "sub": {
+      "rodent_beast": {"name": "Rodent Beast", "tier": "T18"},
+      "anthropomorphic_owl": {"name": "Anthropomorphic Owl", "tier": "T18"},
+      "anthropomorphic_panda": {"name": "Anthropomorphic Panda", "tier": "T17"},
+      "anthropomorphic_octopus": {"name": "Anthropomorphic Octopus", "tier": "T17"},
+      "werewolf": {"name": "Werewolf", "tier": "T12"},
+      "minoan": {"name": "Minoan", "tier": "T12"},
+      "centaur": {"name": "Centaur", "tier": "T11"},
+      "chimera": {"name": "Chimera", "tier": "T7"},
+      "mutated_beast": {"name": "Mutated Beast", "tier": "T7"},
+      "ancient_beastman": {"name": "Ancient Beastman", "tier": "T7"},
+      "griffin": {"name": "Griffin", "tier": "T5"},
+      "phoenix": {"name": "Phoenix", "tier": "T5"},
+      "sacred_beast": {"name": "Sacred Beast", "tier": "T4"},
+      "primordial_beast": {"name": "Primordial Beast", "tier": "T3"}
+    }
+  },
+
+   "giant": {
+    "name": "Giant",
+    "sub": {
+      "sub_giant": {"name": "Giant", "tier": "T18"},
+      "cyclops": {"name": "Cyclops", "tier": "T15"},
+      "elemental_giant": {"name": "Elemental Giant", "tier": "T13"},
+      "titan": {"name": "Titan", "tier": "T10"},
+      "ancient_giant": {"name": "Ancient Giant", "tier": "T10"},
+      "giant_king": {"name": "Giant King", "tier": "T10"},
+      "ettin": {"name": "Ettin", "tier": "T9"},
+      "colossus": {"name": "Colossus", "tier": "T9"},
+      "giant_lord": {"name": "Giant Lord", "tier": "T8"},
+      "primordial_giant": {"name": "Primordial Giant", "tier": "T6"}
+    }
+  },
+
+   "dwarf": {
+    "name": "Dwarf",
+    "sub": {
+      "sub_dwarf": {"name": "Dwarf", "tier": "T18"},
+      "dwarf_king": {"name": "Dwarf King", "tier": "T13"}
+    }
+  },
+
+   "slime": {
+    "name": "Slime",
+    "sub": {
+      "sub_slime": {"name": "Slime", "tier": "T20"},
+      "demon_slime": {"name": "Demon Slime", "tier": "T6"},
+      "ultimate_slime": {"name": "Ultimate Slime", "tier": "T1"}
+    }
+  },
+
+   "harpy": {
+    "name": "Harpy",
+    "sub": {
+      "sub_harpy": {"name": "Harpy", "tier": "T16"},
+      "siren": {"name": "Siren", "tier": "T11"},
+      "half_griffin": {"name": "Half Griffin", "tier": "T7"},
+      "half_phoenix": {"name": "Half Phoenix", "tier": "T7"},
+      "harpy_queen": {"name": "Harpy Queen", "tier": "T6"},
+      "demon_harpy": {"name": "Demon Harpy", "tier": "T5"}
+    }
+  },
+
+   "elemental": {
+    "name": "Elemental",
+    "sub": {
+      "lesser_elemental": {"name": "Lesser Elemental", "tier": "T16"},
+      "spark_elemental": {"name": "Spark Elemental", "tier": "T16"},
+      "droplet_elemental": {"name": "Droplet Elemental", "tier": "T16"},
+      "dust_elemental": {"name": "Dust Elemental", "tier": "T16"},
+      "fire_elemental": {"name": "Fire Elemental", "tier": "T13"},
+      "water_elemental": {"name": "Water Elemental", "tier": "T13"},
+      "earth_elemental": {"name": "Earth Elemental", "tier": "T13"},
+      "wind_elemental": {"name": "Wind Elemental", "tier": "T13"},
+      "ice_elemental": {"name": "Ice Elemental", "tier": "T9"},
+      "lightning_elemental": {"name": "Lightning Elemental", "tier": "T9"},
+      "lava_elemental": {"name": "Lava Elemental", "tier": "T9"},
+      "nature_elemental": {"name": "Nature Elemental", "tier": "T9"},
+      "arcane_elemental": {"name": "Arcane Elemental", "tier": "T8"},
+      "plasma_elemental": {"name": "Plasma Elemental", "tier": "T8"},
+      "gravity_elemental": {"name": "Gravity Elemental", "tier": "T8"},
+      "sound_elemental": {"name": "Sound Elemental", "tier": "T8"},
+      "cosmic_elemental": {"name": "Cosmic Elemental", "tier": "T7"},
+      "stellar_elemental": {"name": "Stellar Elemental", "tier": "T7"},
+      "void_elemental": {"name": "Void Elemental", "tier": "T7"},
+      "dark_elemental": {"name": "Dark Elemental", "tier": "T6"},
+      "void_shadow": {"name": "Void Shadow", "tier": "T6"},
+      "shadow_entity": {"name": "Shadow Entity", "tier": "T6"},
+      "shadowbringer": {"name": "Shadowbringer", "tier": "T6"},
+      "elemental_lord": {"name": "Elemental Lord", "tier": "T5"},
+      "storm_lord": {"name": "Storm Lord", "tier": "T5"},
+      "frost_lord": {"name": "Frost Lord", "tier": "T5"},
+      "primordial_elemental": {"name": "Primordial Elemental", "tier": "T3"}
+    }
+  },
+
+   "spirit": {
+    "name": "Spirit",
+    "sub": {
+      "kodama": {"name": "Kodama", "tier": "T11"},
+      "hitodama": {"name": "Hitodama", "tier": "T11"},
+      "zashiki_warashi": {"name": "Zashiki-warashi", "tier": "T11"},
+      "nekomata": {"name": "Nekomata", "tier": "T10"},
+      "tengu": {"name": "Tengu", "tier": "T10"},
+      "tanuki": {"name": "Tanuki", "tier": "T10"},
+      "sarugami": {"name": "Sarugami", "tier": "T9"},
+      "unkai": {"name": "Unkai", "tier": "T9"},
+      "tsukumogami": {"name": "Tsukumogami", "tier": "T9"},
+      "suijin": {"name": "Suijin", "tier": "T3"},
+      "raijin": {"name": "Raijin", "tier": "T3"},
+      "fujin": {"name": "Fujin", "tier": "T3"},
+      "kitsune": {"name": "Kitsune", "tier": "T4"},
+      "yuki_onna": {"name": "Yuki-onna", "tier": "T4"},
+      "cho_no_rei": {"name": "Chō no Rei", "tier": "T4"},
+      "yumerei": {"name": "Yumerei", "tier": "T4"},
+      "konrei": {"name": "Konrei", "tier": "T4"},
+      "genbu": {"name": "Genbu", "tier": "T5"},
+      "seiryu": {"name": "Seiryu", "tier": "T5"},
+      "byakko": {"name": "Byakko", "tier": "T5"},
+      "suzaku": {"name": "Suzaku", "tier": "T5"},
+      "reio": {"name": "Reiō", "tier": "T4"},
+      "primordial_yokai": {"name": "Primordial Yokai", "tier": "T3"}
+    }
+  },
+
+   "tech": {
+    "name": "Tech",
+    "sub": {
+      "robot": {"name": "Robot", "tier": "T11"},
+      "android": {"name": "Android", "tier": "T11"}
+    }
+  },
+
+   "cosmic_entity": {
+    "name": "Cosmic Entity",
+    "sub": {
+      "golem": {"name": "Golem", "tier": "T5"},
+      "abysmal_sea_creature": {"name": "Abysmal Sea creature", "tier": "T5"},
+      "extraterrestrial": {"name": "Extraterrestrial", "tier": "T5"},
+      "demi_god": {"name": "Demi God", "tier": "T4"},
+      "ashura": {"name": "Ashura", "tier": "T4"},
+      "yasson": {"name": "Yasson", "tier": "T3"},
+      "nazar": {"name": "Nazar", "tier": "T3"},
+      "aethereal": {"name": "Aethereal", "tier": "T3"},
+      "archon": {"name": "Archon", "tier": "T2"},
+      "herrscher": {"name": "Herrscher", "tier": "T2"},
+      "lesser_god": {"name": "Lesser God", "tier": "T2"},
+      "cosmic_divine": {"name": "Cosmic Divine", "tier": "T1"},
+      "celestia": {"name": "Celestia", "tier": "T1"},
+      "aeon": {"name": "Aeon", "tier": "T0"},
+      "god": {"name": "God", "tier": "T0"},
+      "ort": {"name": "Ort", "tier": "T0"},
+      "primordial_cosmic": {"name": "Primordial Cosmic", "tier": "T0"}
+    }
+  }
+}
